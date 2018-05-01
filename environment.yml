@@ -1,0 +1,16 @@
+name: tensorflow
+dependencies:
+- python
+- jupyter
+- matplotlib
+- pandas
+- scipy
+-U scikit-learn
+- pip:
+  - requests
+  - tf-nightly
+
+
+conda install pytorch-cpu torchvision -c pytorch
+
+conda install -c anaconda pymysql
