@@ -19,6 +19,6 @@ git add newom or git add .
 git commit -m 'this is for test'
 git push origin master 
 
-
+gedit /etc/hosts 添加一行：192.30.252.128　　github.com
 3
 git clone git@github.com:qyhboy/test1.git
