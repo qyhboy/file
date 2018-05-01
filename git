@@ -16,8 +16,8 @@ git remote add origin git@github.com:qyhboy/file.git
 
 git add newom or git add .
 
-git commit -m 'this is for test'
-git push origin master 
+git commit -m 'this is for test1'
+git push -f origin master 
 
 gedit /etc/hosts 添加一行：192.30.252.128　　github.com
 3
